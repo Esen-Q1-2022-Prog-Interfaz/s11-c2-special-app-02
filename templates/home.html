@@ -1,8 +1,7 @@
 {% extends 'layout.html' %}
-{% block title %}todolist webapp{% endblock %}
+{% block title %}web app home{% endblock %}
 {% block contents %}
-<h1>todolist webapp</h1>
+<h1>web app home</h1>
 <br>
-<a href="{{ url_for('auth.login') }}">login</a><br>
-<a href="{{ url_for('auth.register') }}">register</a>
+<a href="{{ url_for('todolist.main') }}">go to todolist</a>
 {% endblock %}
